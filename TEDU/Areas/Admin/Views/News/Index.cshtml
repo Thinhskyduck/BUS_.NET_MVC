@@ -1,0 +1,7 @@
+﻿@model IEnumerable<TEDU.Areas.Admin.Models.News>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewBag.Headers = new List<string> { "ID", "Tiêu đề", "Nội dung", "Ngày đăng"};
+}
+
+@Html.Partial("_Table", Model);

@@ -20,21 +20,7 @@ namespace TEDU.Controllers
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-        public ActionResult News()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-        public ActionResult Schedule() 
+        public ActionResult Signin()
         {
             ViewBag.Message = string.Empty;
             return View();

@@ -19,6 +19,7 @@ namespace TEDU.Areas.Admin
                 "Admin/{controller}/{action}/{id}",
                 new { action = "Index", Controller = "Home", id = UrlParameter.Optional }
             );
+
         }
     }
 }

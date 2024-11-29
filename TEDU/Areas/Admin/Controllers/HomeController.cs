@@ -13,5 +13,7 @@ namespace TEDU.Areas.Admin.Controllers
         {
             return View();
         }
+
+
     }
 }

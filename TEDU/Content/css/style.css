@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+﻿/********** Template CSS **********/
 :root {
     --primary: #00B98E;
     --secondary: #FF6922;
@@ -15,7 +15,7 @@
 }
 
 
-/*** Spinner ***/
+/*** Spinner ***/   
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -467,35 +467,4 @@ button {
     cursor: pointer;
 }
 
-.schedule-list {
-    margin: 20px;
-}
 
-.schedule-item {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.schedule-item .info {
-    display: flex;
-    flex-direction: column;
-}
-
-.schedule-item .price {
-    color: orange;
-    font-weight: bold;
-}
-
-button.choose-btn {
-    background-color: #ff5f00;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
